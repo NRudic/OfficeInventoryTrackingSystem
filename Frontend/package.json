@@ -1,0 +1,41 @@
+{
+  "name": "inventory-tracker-web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve --host localhost",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@chenfengyuan/vue-qrcode": "^2.0.0-rc",
+    "@vuelidate/core": "^2.0.0-alpha.18",
+    "@vuelidate/validators": "^2.0.0-alpha.15",
+    "axios": "^0.21.1",
+    "connect-history-api-fallback": "^1.6.0",
+    "core-js": "^3.6.5",
+    "express": "^4.17.1",
+    "mitt": "^2.1.0",
+    "primeflex": "^2.0.0",
+    "primeicons": "^4.1.0",
+    "primevue": "^3.3.5",
+    "qrcode": "^1.4.4",
+    "vue": "^3.1.1",
+    "vue-router": "^4.0.8",
+    "vuex": "^4.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-plugin-vuex": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.0.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^7.0.0",
+    "node-sass": "^6.0.0",
+    "sass": "^1.34.0",
+    "sass-loader": "^10.2.0"
+  }
+}
